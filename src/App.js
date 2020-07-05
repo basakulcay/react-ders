@@ -6,34 +6,38 @@ import Ust from './component/ust';
 import Anasayfa from './component/anasayfa';
 import İletisim from './component/iletisim';
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-      <Router>
-        <div>
-          <Route path='/' exact render={
-            ()=>{
-              return(
-                <div>
-                <Ust/>
-                <Anasayfa title='anasayfa başlık'/>
-                </div>
-              )
-            }
-          } />
+    <Router>
+      <div>
+        <Route
+          path="/"
+          exact
+          render={() => {
+            return (
+              <div>
+                <Ust />
+                <Anasayfa title="anasayfa başlık" />
+              </div>
+            );
+          }}
+        />
 
-        <Route path='/iletisim' exact render={
-            ()=>{
-              return(
-                <div>
-                <İletisim/>
-                </div>
-              )
-            }
-          } />
-        </div>
-      </Router>
+        <Route
+          path="/iletisim"
+          exact
+          render={() => {
+            return (
+              <div>
+                <İletisim />
+              </div>
+            );
+          }}
+        />
+      </div>
+    </Router>
   );
 }
 
