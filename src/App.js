@@ -5,6 +5,7 @@ import './App.css';
 import Ust from './component/ust';
 import Anasayfa from './component/anasayfa';
 import İletisim from './component/iletisim';
+import Alt from './component/alt';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
               <div>
                 <Anasayfa title="anasayfa başlık" />
                 <Ust />
+                <Alt />
               </div>
             );
           }}

@@ -1,4 +1,5 @@
 .ust {
+    
   position: absolute;
   width: 100%;
   text-align: center;
@@ -25,7 +26,12 @@ h3 {
 }
 
 ol {
-    text-align: left;
-    color: black;
-    line-height: 2rem;
+  text-align: left;
+  color: black;
+  line-height: 2rem;
+}
+
+.ders-2 {
+  background-color: lightgray;
+  width: 240px;
 }

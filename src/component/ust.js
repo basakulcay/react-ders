@@ -8,13 +8,23 @@ class Ust extends PureComponent {
       <div className="ust">
         <div className="ders">
           <h3>React 1. Ders</h3>
-            <ol>
+          <ol>
             <li>Creating React App</li>
             <li>MVC : React vs Vue</li>
             <li>React: Components Props</li>
             <li>React: Props</li>
-            </ol>
+          </ol>
         </div>
+        <div className="ders-2">
+          <h3>Ogrenilecekler...</h3>
+          <ol>
+            <li>PureComponent</li>
+            <li>Router</li>
+            <li>State</li>
+          </ol>
+        </div>
+
+       
       </div>
     );
   }
