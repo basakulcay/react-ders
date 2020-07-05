@@ -18,8 +18,8 @@ function App() {
           render={() => {
             return (
               <div>
-                <Ust />
                 <Anasayfa title="anasayfa başlık" />
+                <Ust />
               </div>
             );
           }}

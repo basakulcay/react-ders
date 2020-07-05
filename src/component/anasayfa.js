@@ -6,7 +6,7 @@ class Anasayfa  extends PureComponent {
     render(){
         return (
             <div className='deneme'>
-                Anasayfa
+               Hosgeldiniz
             </div>
         );
     }

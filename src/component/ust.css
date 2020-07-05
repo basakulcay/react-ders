@@ -1,0 +1,31 @@
+.ust {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background-image: url('../abstract.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+h3 {
+  width: 240px;
+  color: black;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ders {
+  background-color: lightblue;
+  width: 240px;
+}
+
+ol {
+    text-align: left;
+    color: black;
+    line-height: 2rem;
+}
